@@ -4,7 +4,7 @@ export default function About() {
     return (
         <div className='about center'>
 
-            <img src="profile-pic.png" alt="pofilePic" height={300} width={300}/>
+            <img src="profile-pic.webp" alt="pofilePic" height={300} width={300} loading="lazy"/>
 
             <h1>
                 Hello 👋, I am Silvert Félix
@@ -23,7 +23,7 @@ export default function About() {
                     aria-label='github'
                     className='link link--icon'
                 >
-                <img src="github.png" alt="github" height={30} width={30}/>
+                <img src="github.webp" alt="github" height={30} width={30} loading="lazy"/>
                 </a>
 
                 <a
@@ -32,7 +32,7 @@ export default function About() {
                     aria-label='linkedin'
                     className='link link--icon'
                 >
-                <img src="linkedin.png" alt="linkedin" height={40} width={40}/>
+                <img src="linkedin.webp" alt="linkedin" height={40} width={40} loading="lazy"/>
                 </a>
             </div>
         </div>
