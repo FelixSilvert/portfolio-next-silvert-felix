@@ -31,7 +31,7 @@ const ProjectContainer = ({ project }: { project: Project }) => (
         aria-label='source code'
         className='link link--icon'
       >
-        <img src="github.png" alt="github" height={30} width={30}/>
+        <img src="github.webp" alt="github" height={30} width={30}/>
       </a>
     )}
   </div>

@@ -5,7 +5,6 @@ export default function About() {
         <div className='about center'>
 
             <img src="profile-pic.webp" alt="pofilePic" height={300} width={300} loading="lazy"/>
-
             <h1>
                 Hello 👋, I am Silvert Félix
             </h1>
